@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('iconfont.eot');
+	src: url('iconfont.eot?#iefix') format('eot'),
+		url('iconfont.woff2') format('woff2'),
+		url('iconfont.woff') format('woff'),
+		url('iconfont.ttf') format('truetype'),
+		url('iconfont.svg#iconfont') format('svg');
+}
+
+.mf:before {
+	font-family: "iconfont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.mf-curriculum:before {
+	content: "\E001";
+}
+
+.mf-email-filled-closed-envelope:before {
+	content: "\E002";
+}
+
+.mf-github-logo-silhouette-in-a-square:before {
+	content: "\E003";
+}
+
+.mf-linkedin:before {
+	content: "\E004";
+}
+
+.mf-right-arrow:before {
+	content: "\E005";
+}
+
+.mf-right-arrow1:before {
+	content: "\E006";
+}
+
+.mf-index.html:before {
+	content: "\E007";
+}
